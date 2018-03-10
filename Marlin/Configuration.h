@@ -552,7 +552,8 @@
 // #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 4000, 800 }
 // #define DEFAULT_AXIS_STEPS_PER_UNIT   { 78.8550, 79.9633, 4000, 649.3506 }
 // #define DEFAULT_AXIS_STEPS_PER_UNIT   { 78.8177, 80, 4000, 649.3506 }
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 4000, 649.3506 }
+// #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 4000, 649.3506 } // egyenlettel számolt
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 4000, 606.8 }
 
 /**
  * Default Max Feed Rate (mm/s)
