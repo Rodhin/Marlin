@@ -550,10 +550,11 @@
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
 // #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 4000, 800 }
-// #define DEFAULT_AXIS_STEPS_PER_UNIT   { 78.8550, 79.9633, 4000, 649.3506 }
-// #define DEFAULT_AXIS_STEPS_PER_UNIT   { 78.8177, 80, 4000, 649.3506 }
 // #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 4000, 649.3506 } // egyenlettel számolt
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 4000, 606.8 }
+// #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 4000, 547.4934 } // egyenlettel számolt
+// #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 4000, 606.8 } // DD Pet-G
+// #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 4000, 698.75 } // DD PLA narancs
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 4000, 586.6 } // DD PLA narancs
 
 /**
  * Default Max Feed Rate (mm/s)
