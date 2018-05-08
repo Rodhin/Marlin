@@ -554,7 +554,8 @@
 // #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 4000, 547.4934 } // egyenlettel számolt
 // #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 4000, 606.8 } // DD Pet-G
 // #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 4000, 698.75 } // DD PLA narancs
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 4000, 586.6 } // DD PLA narancs
+// #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 4000, 586.6 } // DD PLA narancs
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 4000, 617.4736 } // Philament PLA piros
 
 /**
  * Default Max Feed Rate (mm/s)
