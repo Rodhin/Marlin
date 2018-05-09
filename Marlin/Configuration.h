@@ -425,9 +425,14 @@
   // #define  DEFAULT_bedKd 394.95
 
   // Rodhin - StaticBoards Mk2b heatbed
-  #define  DEFAULT_bedKp 296.72
-  #define  DEFAULT_bedKi 43.12
-  #define  DEFAULT_bedKd 510.43
+  // #define  DEFAULT_bedKp 296.72
+  // #define  DEFAULT_bedKi 43.12
+  // #define  DEFAULT_bedKd 510.43
+
+  // Rodhin - StaticBoards Mk2b heatbed with Printbite+
+  #define  DEFAULT_bedKp 325.98
+  #define  DEFAULT_bedKi 63.16
+  #define  DEFAULT_bedKd 420.59
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #endif // PIDTEMPBED
