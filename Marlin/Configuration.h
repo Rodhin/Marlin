@@ -560,7 +560,8 @@
 // #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 4000, 606.8 } // DD Pet-G
 // #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 4000, 698.75 } // DD PLA narancs
 // #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 4000, 586.6 } // DD PLA narancs
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 4000, 617.4736 } // Philament PLA piros
+//#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 4000, 617.4736 } // Philament PLA piros
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 4000, 418.54 } // E3D Titan alap
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -792,7 +793,7 @@
 // @section extruder
 
 // For direct drive extruder v9 set to true, for geared extruder set to false.
-#define INVERT_E0_DIR true
+#define INVERT_E0_DIR false
 #define INVERT_E1_DIR false
 #define INVERT_E2_DIR false
 #define INVERT_E3_DIR false
@@ -1503,7 +1504,7 @@
 //
 // Note: Usually sold with a white PCB.
 //
-// #define REPRAP_DISCOUNT_SMART_CONTROLLER
+#define REPRAP_DISCOUNT_SMART_CONTROLLER
 
 //
 // GADGETS3D G3D LCD/SD Controller
